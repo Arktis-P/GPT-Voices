@@ -24,14 +24,8 @@ https://github.com/CjangCjengh/TTSModels
 7. run the code.
   `python GPTVoices_v0.4.1.py`
   You need **OpenAI API key** to run the code.
-
-
-# Differences from existing codes:
-- can ask ChatGPT in Korean, and ChatGPT will answer in Japanese, which will be translated automatically into Korean. (uses library `googletrans` to translate the answer.)
-- no Selenium module is used. the program is only window on your desktop.
-
-
-# 한국어
+  
+**한국어**
 1. anaconda 설치.
 2. anaconda prompt 실행 후 저장된 폴더로 이동. 예시:
   `cd E:\Projects\GPTVoices\'
@@ -46,3 +40,12 @@ https://github.com/CjangCjengh/TTSModels
 7. 코드 실행.
   `python GPTVoices_v0.4.1.py`
   정상적으로 작동시키기 위해서 **OpenAI API key** 필요.
+
+
+# Differences from existing codes:
+- can ask ChatGPT in Korean, and ChatGPT will answer in Japanese, which will be translated automatically into Korean. (uses library `googletrans` to translate the answer.)
+- no Selenium module is used. the program is only window on your desktop.
+
+**한국어**
+- ChatWaifu에서 영감을 받아 제작했으나, 사용자는 한국어로 물어볼 수 있으며 ChatGPT의 대답을 한국어로 받아 볼 수 있음. (TTS 제작을 위해 ChatGPT 자체적으로 일본어로 대답하나, `googletrans` 라이브러리를 이용해 한국어로 자동 번역됨.)
+- Selenium 모듈을 사용하지 않았기 때문에, 프로그램 실행 시 거슬리는 크롬 창을 띄우지 않음.
